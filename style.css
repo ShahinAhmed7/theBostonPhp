@@ -1,0 +1,19 @@
+
+
+
+
+
+
+    div.php-style {
+      height: 450px;
+      width: 900px;
+      margin:  0 auto;
+      padding: 20px;
+      background: #ddd;
+    }
+    div.php-style h2 {
+      background: #ccc none repeat scroll 0 0;
+      margin: 0 0 30px;
+      padding: 20px 0;
+      text-align: center;
+    }

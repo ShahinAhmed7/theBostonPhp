@@ -25,27 +25,44 @@
 <body>
 
     <div class="php-style">
-        <h2><?php echo "PHP Basic Class" ;?></h2>
+        <h2><?php echo "The Boston Basic PHP" ;?></h2>
             <?php 
 
-            echo '<h1>Hello php</h1>';
-   		// 1 .String
-   		// 2 .integer
-   		// 4 .float
-   		// 5 .boolean
-   		// 6 .array
-   		// 7 .object
+            $beautifull = 'rajshahi';
+
+            $cities = array('dhaka', 'khulna', 'kushtia');
 
 
-            echo 'hello world how are you';
+            if($beautifull == 'rajshahi') {
+              echo '<h1>Most beautifull city '.$beautifull.'</h1>';
+            } else{
+              echo '<h1>We don\'t know</h1>';
+            }
 
-            $x = 27;
-
-            var_dump($x) ;
+            echo '<h1>Second city is '.$cities[0].'</h1>';
 
 
+              if($cities[1] == 'khulna'){
+                echo '<h1>true</h1>';
+              } else{
+                echo '<h1>false</h1>';
+              }
 
          ?>
+
+<!--         <?php if($beautifull == 'rajshahi') : ?>
+            <h1>Most beautifull city rajshahi</h1>
+          <?php else : ?>
+            <h1>We don't know</h1>
+        <?php endif; ?>
+ -->
+
+        
+
+
+  
+
+
        </div>
 </body>
 </html>
